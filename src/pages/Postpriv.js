@@ -94,13 +94,13 @@ function Postpriv() {
           )}
         </div>
       </div>
-      <div className="containerpostflex">
+      <div className="grille">
         {listOfPosts.map((value, key) => {
           return (
-            <div key={key} className="post3 margin">
+            <div key={key} className="post3">
               <div className="title"> {value.title} </div>
               <div
-                className="body"
+                className="bodypost"
                 onClick={() => {
                   history.push(`/postrpiv/${value.id}`);
                 }}
@@ -126,18 +126,18 @@ function Postpriv() {
                   {value.username} le {value.createdAt}
                 </div>
 
-                <div className="buttons">
+                {/*     <div className="buttons">
                   {/* <div className="cofee">
                       {" "}
                       <LocalCafeIcon />
                     </div> */}
 
-                  {/*    <label> {value.Likes.length}</label> */}
-                </div>
+                {/*    <label> {value.Likes.length}</label> }
+                </div> */}
               </div>
             </div>
           );
-        })}
+        })}{" "}
       </div>
     </div>
   );

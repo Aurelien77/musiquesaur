@@ -44,6 +44,7 @@ body {
 }
 
 .bodypost {
+  text-overflow: ellipsis;
   width: 100%;
   height: 50px;
   background-color: white;
@@ -739,7 +740,7 @@ a:link {
   width: 100%;
   height: 100px;
   padding: 2%;
-
+  text-overflow: ellipsis;
   box-shadow: rgba(13, 13, 14, 0.2) 0px 7px 29px 0px;
   font-size: 20px;
   text-align: center;
@@ -747,6 +748,7 @@ a:link {
 
 .post3 .body {
   display: flex;
+  text-overflow: ellipsis;
   flex-direction: column;
   text-align: justify;
   height: 200px;

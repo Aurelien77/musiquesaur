@@ -134,13 +134,13 @@ function Profile() {
                     {value.username} le {value.createdAt}
                   </div>
 
-                  <div className="buttons">
-                    <div className="cofee ">
-                      {" "}
+                  {/*     <div className="buttons">
+                           <div className="cofee ">
+                     
                       <ThumbUpAltIcon />
                       <label className="labelcof"> {value.Likes.length}</label>
-                    </div>
-                  </div>
+                    </div> 
+                  </div> */}
                 </div>
               </div>
             </div>

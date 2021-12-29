@@ -44,9 +44,10 @@ body {
 }
 
 .bodypost {
-  text-overflow: ellipsis;
+  text-overflow: hidden;
+  flex-wrap: nowrap;
   width: 100%;
-  height: 50px;
+  height: 25px;
   background-color: white;
   text-align: center;
   padding-top: 0.3%;
@@ -709,7 +710,7 @@ a:link {
 }
 .post3 {
   /* height: 100%; */
-
+  display: flex;
   border-radius: 10px;
   flex-direction: column;
   align-items: center;

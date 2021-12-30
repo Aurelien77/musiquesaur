@@ -32,9 +32,9 @@ function Postpriv() {
   };
 
   return (
-    <div className="app ">
+    <div className="app2 ">
       <h1> Fiche de : {username} </h1>{" "}
-      <div className="profilpriv">
+      <div className="profil">
         <img
           src={"https://musiquesaur.herokuapp.com/images/" + photo_profil}
           alt="profil"

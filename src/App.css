@@ -9,6 +9,12 @@
   margin: 0px;
   padding: 0px;
 }
+/* .flex {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #d1515a;
+} */
 .margin {
   margin-left: 10%;
   margin-right: 10%;
@@ -538,6 +544,7 @@ a:link {
   height: 100%;
   margin: 0px;
   padding: 0px;
+
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -704,8 +711,11 @@ a:link {
   /*  align-items: center; */
   justify-content: center;
   margin-top: 1%;
+  padding-left: 20%;
+  padding-right: 20%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
@@ -739,7 +749,7 @@ a:link {
   color: white;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
+  /*   width: 100%; */
   height: 100px;
   padding: 2%;
   text-overflow: ellipsis;
@@ -768,7 +778,7 @@ a:link {
 
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /*  width: 100%; */
 
   padding: 1%;
   align-items: center;

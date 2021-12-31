@@ -1395,10 +1395,53 @@ button:hover {
     margin: 0px;
     padding: 0px;
   }
+  .flex3 a {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0px;
+    padding: 0px;
+  }
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 945px) {
+  .loginContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+
+    margin-top: 2%;
+    border-radius: 80px;
+    margin-top: 2%;
+    margin-bottom: 20%;
+    background-size: 100%;
+    background-size: cover;
+    background: no-repeat, url(./logos/lune.gif);
+    /*  background: no-repeat, url(./logos/orig.gif); */
+    box-shadow: 1px 1px silver, -0.5em 0 0.4em black;
+    color: white;
+    font-size: 150%;
+  }
   .flex3 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .flex3 a {
+    display: flex;
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
@@ -1442,5 +1485,28 @@ button:hover {
 
     white-space: normal;
     overflow: hidden;
+  }
+  .flex3 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .flex3 a {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0px;
+    padding: 0px;
   }
 }
